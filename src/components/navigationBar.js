@@ -27,17 +27,22 @@ export class NavigationBar extends Component {
                 <span className="font-weight-bold d-block" style={{ fontSize: "34px" }}>Prashant Varshney</span>
                 <span className="font-weight-light d-block" style={{ fontSize: '24px', marginTop: '-12px' }}>Software Development Engineer</span>
             </div>
-            <ul className="text-white mt-5 font-weight-light" style={{ fontSize: '22px', listStyle: 'none' }}>
+            <ul className="text-white mt-5 font-weight-light" style={{ fontSize: '20px', listStyle: 'none' }}>
                 <li className="mt-1" style={{ display: "flex", alignItems: "center" }}>
-                    About Me 
-                    <FontAwesomeIcon style={{ fontSize: '16px' }} icon={faChevronRight} className="ml-3" />
+                    About Me
+                    <FontAwesomeIcon style={{ fontSize: '16px' }} icon={faChevronRight} className="ml-5" />
                 </li>
                 <li className="mt-1">Education & Skills</li>
+                <li className="mt-1">Internships & Training</li>
+                <li className="mt-1">My Portfolio</li>
                 <li className="mt-1">Achievements</li>
-                <li className="mt-1">Portfolio</li>
+                <li className="mt-1">Publications</li>
                 <li className="mt-1 mt-5">My Resume</li>
-                <li className="mt-1 mb-5">Contact Me</li>
-                <li className="mt-5">Get in touch</li>
+                <li className="mt-1">Personal Blog</li>
+                <li className="mt-1">Contact Me</li>
+            </ul>
+            <ul className="text-white mt-5 font-weight-light" style={{ position: 'absolute', bottom: 0 ,fontSize: '20px', listStyle: 'none' }}>
+                <li className="font-weight-regular">Get in touch</li>
                 <li style={{ fontSize: "28px" }}>
                     <FontAwesomeIcon icon={["fab", "facebook-f"]} className="mr-3" />
                     <FontAwesomeIcon icon={["fab", "github"]} className="mr-3" />

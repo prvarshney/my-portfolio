@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import NavigationBar from './components/navigationBar';
+import PortfolioPage from './components/portfolioPage';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <NavigationBar />
       </div>
       <div className="col-9">
-        Hello, World
+        <PortfolioPage />
       </div>
     </div>
   );
