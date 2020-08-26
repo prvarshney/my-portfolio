@@ -13,7 +13,8 @@ const navBarStyle = () =>  {
         "background-color": "#04B4E0",
         "height": "100%",
         "width": "100%",
-        "maxWidth": "410px"
+        "maxWidth": "390px",
+        "minWidth": "390px"
     };
 }
 
