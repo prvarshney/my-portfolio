@@ -7,9 +7,9 @@ import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 library.add(fab, faCheckSquare, faCoffee)
 
-export class PortfolioPage extends Component {
+export class AboutMe extends Component {
     render() {
-        return (<div>
+        return (<div >
             <h1 style={{ color: "#000", fontWeight: "400" }} className="mt-5">ABOUT ME</h1>
             <div className="row">
                 <div className="col-10 mt-3" style={{ fontSize: "18px" }}>
@@ -45,4 +45,4 @@ export class PortfolioPage extends Component {
     }
 }
 
-export default PortfolioPage;
+export default AboutMe;

@@ -14,7 +14,10 @@ const navBarStyle = () =>  {
         "height": "100%",
         "width": "100%",
         "maxWidth": "390px",
-        "minWidth": "390px"
+        "minWidth": "390px",
+        "position": "fixed",
+        "top": "0",
+        "left": "0"
     };
 }
 
