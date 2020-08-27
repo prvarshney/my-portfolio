@@ -11,7 +11,7 @@ function App() {
       <div className="col-3 ">
         <NavigationBar />
       </div>
-      <div className="col-9">
+      <div className="col-9 pb-5">
         <AboutMe />
         <EducationAndSkills />
       </div>

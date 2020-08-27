@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fab, faPython } from '@fortawesome/free-brands-svg-icons';
+import { fab, faPython, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCheckSquare, faCoffee, faGraduationCap, faCode } from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare, faCoffee, faGraduationCap, faCode, faRobot, faDatabase } from '@fortawesome/free-solid-svg-icons'
 
 library.add(fab, faCheckSquare, faCoffee)
 
@@ -10,36 +10,40 @@ export class EducationAndSkills extends Component {
     render() {
         return (<div>
             {/* EDUCATION SECTION */}
-            <h1 style={{ color: "#000", fontWeight: "400" }} className="mt-4">EDUCATION</h1>
-            <div className="row">
-                <div className="col-10 mt-3" style={{ fontSize: "18px" }}>
-                    <div className="row" style={{ display:"flex", alignItems:"center" }}>
-                        <div className="col-1 text-center">
-                            <div className=""><FontAwesomeIcon icon={"school"} style={{ fontSize: "62px", color: "#04B4E0" }} /></div>
-                            <div className="mt-4"><FontAwesomeIcon icon={"swatchbook"} style={{ fontSize: "62px", color: "#04B4E0" }} /></div>
-                        </div>
-                        <ul style={{ listStyle: "none" }} className="col-10">
+            <h2 style={{ color: "#000", fontWeight: "400" }} className="mt-4">EDUCATION</h2>
+            <div className="row ">
+                <div className="col-10 mt-3  pb-5 border-bottom mb-5" style={{ fontSize: "18px" }}>
+                    <div className="row" style={{ display: "flex", alignItems: "center" }}>
+                        <div className="col-1 text-center invisible"></div>
+                        <ul style={{ listStyleType: "upper-roman" }} className="col-10">
                             <li>
-                                <div className="row" style={{ display: "flex", alignItems: "center"}}>
-                                    <div className="col-9">Currently pursuing my <strong style={{ color: "#04B4E0" }}>Bachelor of Technology in Computer Science & Engineering,
-                                    with ongoing CGPA of 7.7</strong> from Bhagwan Parshuram Institute of Technology <strong>affiliated by Guru Gobind Singh Indraprastha University, Delhi, India</strong> </div>
+                                <div className="row" style={{ display: "flex", alignItems: "center" }}>
+                                    <div className="col-9">
+                                        Currently pursuing my <strong style={{ color: "#04B4E0" }}>Bachelor of Technology in Computer Science & Engineering,
+                                        with ongoing CGPA of 7.7</strong> from Bhagwan Parshuram Institute of Technology <strong>affiliated by Guru Gobind 
+                                        Singh Indraprastha University, Delhi, India</strong>
+                                    </div>
                                     <div className="col-3 text-right font-weight-lighter"><i>June 2017 - June 2021</i></div>
                                 </div>
                             </li>
                             <li>
                                 <div className="row mt-3" style={{ display: "flex", alignItems: "center" }}>
                                     <div className="col-9">
-                                        Passed <strong style={{ color: "#04B4E0" }}>Senior Secondary Examination (12<sup>th</sup>) with 94.5%</strong> from Little Fairy Public School 
-                                        <strong> affiliated by Central Board of Secondary Education</strong>, Hudson Lane Kingsway Camp, Delhi, India.</div>
-                                        <div className="col-3 text-right font-weight-lighter"><i>April 2014 - June 2016</i></div>
+                                        Passed <strong style={{ color: "#04B4E0" }}>Senior Secondary Examination (12<sup>th</sup>) with 94.5%</strong> 
+                                        from Little Fairy Public School
+                                        <strong> affiliated by Central Board of Secondary Education</strong>, Hudson Lane Kingsway Camp, Delhi, India.
+                                    </div>
+                                    <div className="col-3 text-right font-weight-lighter"><i>April 2014 - June 2016</i></div>
                                 </div>
                             </li>
                             <li>
-                                <div className="row mt-3" style={{ display: "flex", alignItems:"center" }}>
+                                <div className="row mt-3" style={{ display: "flex", alignItems: "center" }}>
                                     <div className="col-9">
-                                        Passed <strong style={{ color: "#04B4E0" }}>Higher Secondary Examination (10<sup>th</sup>) with 8.8 CGPA</strong> from Little Fairy Public School 
-                                        <strong> affiliated by Central Board of Secondary Education</strong>, Hudson Lane Kingsway Camp, Delhi, India.</div>
-                                        <div className="col-3 text-right font-weight-lighter"><i>April 2012 - April 2014</i></div>
+                                        Passed <strong style={{ color: "#04B4E0" }}>Higher Secondary Examination (10<sup>th</sup>) with 8.8 CGPA</strong> 
+                                        from Little Fairy Public School
+                                        <strong> affiliated by Central Board of Secondary Education</strong>, Hudson Lane Kingsway Camp, Delhi, India.
+                                    </div>
+                                    <div className="col-3 text-right font-weight-lighter"><i>April 2012 - April 2014</i></div>
                                 </div>
                             </li>
                         </ul>
@@ -47,7 +51,95 @@ export class EducationAndSkills extends Component {
                 </div>
             </div>
             {/* TECHNICAL SKILL SECTION START */}
-            <h1 style={{ color: "#000", fontWeight: "400" }} className="mt-4">TECHNICAL SKILLS</h1>
+            <h2 style={{ color: "#000", fontWeight: "400" }} className="mt-4">TECHNICAL SKILLS</h2>
+            <div className="row mt-3" >
+                <div className="col-10 border-bottom pb-4" style={{ fontSize: "18px" }}>
+                    As I <strong>started to work as a freelance software developer</strong> from the very second year of my Engineering 
+                    with many startups and medium sized firms my skillset is not limited to a particular domain, <strong>
+                    I have served them in variety of domains like <span style={{ color: "#04B4E0" }}>Front-End Engineering</span>, 
+                    <span style={{ color: "#04B4E0" }}>Back-End Engineering</span>, <span style={{ color: "#04B4E0" }}>Mobile Application Engineering</span>, 
+                    Web Scrapping, Automation, Internet of Things(IoT), UI/UX Designing, Graphic Designing</strong> and many more.
+                    <div className="my-4" style={{ color: "#04B4E0", fontSize: "64px", display: "flex", alignItems: "center" }}>
+                        <FontAwesomeIcon icon={faHtml5} />
+                        <FontAwesomeIcon icon={["fab", "react"]} className="ml-4" />
+                        <FontAwesomeIcon icon={["fab", "css3"]} className="ml-4" />
+                        <FontAwesomeIcon icon={["fab", "node-js"]} className="ml-4" />
+                        <FontAwesomeIcon icon={["fab", "node"]} className="ml-4" />
+
+                        <FontAwesomeIcon icon={["fab", "java"]} className="ml-4" />
+                        <FontAwesomeIcon icon={["fab", "python"]} className="ml-4" />
+                    </div>
+                    {/* FRONT-END ENGINEERING */}
+                    <div className="mt-5 ml-0">
+                        <h2 style={{ color: "#04b4e0", fontWeight: "400" }} >FRONT-END ENGINEERING</h2>
+                        <div className="mt-3">
+                            <strong>I specialize in applications written in both React and Vanilla Javascript.</strong> 
+                            I have maintained, developed and launched multiple front-end development projects completely from scratch.
+                            <span style={{ color: "#04b4e0" }}><strong>My current experience and skills in front-end includes: </strong></span>
+                        </div>
+                        <ul className="mt-3">
+                            <li>lead JavaScript development: bootstraping, refactoring, improving the structure, reliability; </li>
+                            <li>full integration of front-end development using tools like Webpack with features like automatic code reload, 
+                                code minifications, multiple environments support, automated testing and server-side rendering </li>
+                            <li>good sense of design and UX, </li>
+                            <li>huge experience in major JS ecosystems, by having used in the past many libraries like React, Redux, jQuery
+                                 and many else. </li>
+                        </ul>
+                        <div className="row">
+                            <div className="col-2"></div>
+                            <div className="col-4 text-center">
+                                <div style={{ color: "#04b4e0", fontSize: "52px" }}><strong>8</strong></div>
+                                <div style={{ color: "#04b4e0", fontSize: "24px", lineHeight: "32px" }}>
+                                    Single Page Applications launched in ReactJS or Vanilla JavaScript
+                                </div>
+                            </div>
+                            <div className="col-4 text-center">
+                                <div style={{ color: "#04b4e0", fontSize: "52px" }}><strong>2</strong></div>
+                                <div style={{ color: "#04b4e0", fontSize: "24px", lineHeight: "32px" }}>
+                                    Talks given about Front-end Development
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* BACK-END ENGINEERING */}
+                    <div className="mt-5 ml-0">
+                        <h2 style={{ color: "#04b4e0", fontWeight: "400" }} >BACK-END ENGINEERING</h2>
+                        <div className="mt-3"><strong>In back-end development, my current stack involves 
+                            <span style={{ color: "#04B4E0" }}> NodeJS</span> and <span style={{ color: "#04B4E0" }}>ExpressJS </span> 
+                            Framework,</strong> and alternatively <span style={{ color: "#04B4E0" }}>Python with Flask/Django Framework </span> 
+                            or <span style={{ color: "#04B4E0" }}>Java with SpringBoot</span>.
+                            <br />
+                            Nearly every app I have launched in the past had the back-end done also by me. In order to improve the development 
+                            speed, performance and reliability, I have changed languages and frameworks already multiple times, from PHP to 
+                            NodeJS; and configured servers using just the shell. The lessons I learned while doing all these apps will be 
+                            useful for me forever, no matter what framework I will use in the next project.
+                            <span style={{ color: "#04B4E0" }}><strong> What I can do for you at that side is: </strong></span>
+                        </div>
+                        <ul className="mt-3">
+                            <li>lead development of backends in <span style={{ color: "#04B4E0" }}>NodeJS/Python</span>, </li>
+                            <li>using different types of databases (like <span style={{ color: "#04B4E0" }}>MongoDB</span>, 
+                            <span style={{ color: "#04B4E0" }}> MySQL</span>), </li>
+                            <li>writing unit & module tests </li>
+                            <li>refactoring existing applications, by improving code readibility, 
+                                separating concerns into separate functions/classes/modules, taking the business logic 
+                                out from your request/response layer into separate modules. </li>
+                        </ul>
+                    </div>
+                    {/* OTHER */}
+                    <div className="mt-5 ml-0">
+                        <h2 style={{ color: "#04b4e0", fontWeight: "400" }} >DEV-OPS, DESIGN, UI, PROJECT LEADERSHIP</h2>
+                        <div className="mt-3"><strong>During the course of time, I have created and released tens of web applications.</strong>
+                         Thus, not only I have coded their back-end and front-end codebases, but often I also had to care about other things needed in a successful web application project like:
+                        </div>
+                        <ul className="mt-3">
+                            <li>good planning & designing of UI using Adobe XD and thinking how it affects the UX; </li>
+                            <li>consistency in design and typography; </li>
+                            <li>Search Engine Optimization; </li>
+                            <li>launching, deployment and monitoring the app after the release; </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>);
     }
 }
