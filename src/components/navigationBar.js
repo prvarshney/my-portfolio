@@ -12,41 +12,53 @@ const navBarStyle = () =>  {
     return {
         "background-color": "#04B4E0",
         "height": "100%",
-        "width": "100%",
         "maxWidth": "390px",
-        "minWidth": "390px",
+        "width": "calc(450 * (100vw/1920))",
         "position": "fixed",
         "top": "0",
-        "left": "0"
+        "left": "0",
     };
+}
+
+const UserAvatarStyle = () => {
+    return {
+        "width":  "calc(180 * 100vw / 1920)",
+        "height": "calc(180 * 100vw / 1920)"
+    }
 }
 
 export class NavigationBar extends Component {
     render() {
         return (<div style={ navBarStyle() }>
             <div className="text-center">
-                <img src={ UserAvatar } className="bg-white mt-5 border rounded-circle" alt="user-avatar"/>
+                <img src={ UserAvatar } style={ UserAvatarStyle() } className="bg-white mt-5 border rounded-circle" alt="user-avatar"/>
             </div>
             <div className="text-center mt-4 text-white" >
-                <span className="font-weight-bold d-block" style={{ fontSize: "34px" }}>Prashant Varshney</span>
-                <span className="font-weight-light d-block" style={{ fontSize: '24px', marginTop: '-12px' }}>Software Development Engineer</span>
+                <span className="font-weight-bold d-block" style={{ fontSize: (window.innerWidth < 1920) ? '26px' : '34px' }}>Prashant Varshney</span>
+                <span className="font-weight-light d-block" 
+                        style={{ fontSize: (window.innerWidth < 1920) ? '18px' : '24px', 
+                                 marginTop: (window.innerWidth < 1920) ? '-9px' : '-12px' }}>
+                            Software Development Engineer
+                </span>
             </div>
-            <ul className="text-white mt-5 font-weight-light" style={{ fontSize: '20px', listStyle: 'none' }}>
+            <ul className="text-white mt-4 font-weight-light" 
+                style={{ fontSize: (window.innerWidth < 1920) ? '16px' : '20px', listStyle: 'none' }}>
                 <li className="mt-1" style={{ display: "flex", alignItems: "center" }}>
                     About Me
-                    <FontAwesomeIcon style={{ fontSize: '16px' }} icon={faChevronRight} className="ml-5" />
+                    <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '12px' : '16px' }} icon={faChevronRight} className="ml-5" />
                 </li>
                 <li className="mt-1">Education & Skills</li>
                 <li className="mt-1">My Portfolio</li>
                 <li className="mt-1">Achievements</li>
                 <li className="mt-1">Publications</li>
-                <li className="mt-1 mt-5">My Resume</li>
+                <li className="mt-1 mt-4">My Resume</li>
                 <li className="mt-1">Personal Blog</li>
                 <li className="mt-1">Contact Me</li>
             </ul>
-            <ul className="text-white mt-5 font-weight-light" style={{ position: 'absolute', bottom: 0 ,fontSize: '20px', listStyle: 'none' }}>
+            <ul className="text-white mt-5 font-weight-light" 
+                style={{ position: 'absolute', bottom: 0 ,fontSize: (window.innerWidth < 1920) ? '16px' : '20px', listStyle: 'none' }}>
                 <li className="font-weight-regular">Get in touch</li>
-                <li style={{ fontSize: "28px" }}>
+                <li style={{ fontSize: (window.innerWidth < 1920) ? '24px' : '28px' }}>
                     <a href="https://www.facebook.com/4lphacoder" target="_blank" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "facebook-f"]} className="mr-3" /></a>
                     <a href="https://github.com/4lphacoder" target="_blank" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "github"]} className="mr-3" /></a>
                     <a href="https://www.linkedin.com/in/alphacoder/" target="_blank" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "linkedin-in"]} className="mr-3" /></a>
