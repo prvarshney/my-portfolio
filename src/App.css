@@ -3,3 +3,7 @@
   width: 100vw;
   background-color: #ffff;
 }
+
+:focus {
+  outline: 0;
+}

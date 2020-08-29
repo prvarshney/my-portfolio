@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import QRCode from '../assets/svg/Prashant_Varshney.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fab, faPython } from '@fortawesome/free-brands-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 

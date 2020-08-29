@@ -4,6 +4,7 @@ import './App.css';
 import NavigationBar from './components/NavigationBar';
 import AboutMe from './components/AboutMe';
 import EducationAndSkills from './components/EducationAndSkills';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className="col-9 pb-5">
         <AboutMe />
         <EducationAndSkills />
+        <Portfolio />
       </div>
     </div>
   );

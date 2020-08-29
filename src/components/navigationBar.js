@@ -37,7 +37,6 @@ export class NavigationBar extends Component {
                     <FontAwesomeIcon style={{ fontSize: '16px' }} icon={faChevronRight} className="ml-5" />
                 </li>
                 <li className="mt-1">Education & Skills</li>
-                <li className="mt-1">Internships & Training</li>
                 <li className="mt-1">My Portfolio</li>
                 <li className="mt-1">Achievements</li>
                 <li className="mt-1">Publications</li>
@@ -48,12 +47,12 @@ export class NavigationBar extends Component {
             <ul className="text-white mt-5 font-weight-light" style={{ position: 'absolute', bottom: 0 ,fontSize: '20px', listStyle: 'none' }}>
                 <li className="font-weight-regular">Get in touch</li>
                 <li style={{ fontSize: "28px" }}>
-                    <FontAwesomeIcon icon={["fab", "facebook-f"]} className="mr-3" />
-                    <FontAwesomeIcon icon={["fab", "github"]} className="mr-3" />
-                    <FontAwesomeIcon icon={["fab", "linkedin-in"]} className="mr-3" />
-                    <FontAwesomeIcon icon={["fas", "envelope-open"]} className="mr-3" />
-                    <FontAwesomeIcon icon={["fab", "skype"]} className="mr-3" />
-                    <FontAwesomeIcon icon={["fab", "twitter"]} className="mr-3" />
+                    <a href="https://www.facebook.com/4lphacoder" target="_blank" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "facebook-f"]} className="mr-3" /></a>
+                    <a href="https://github.com/4lphacoder" target="_blank" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "github"]} className="mr-3" /></a>
+                    <a href="https://www.linkedin.com/in/alphacoder/" target="_blank" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "linkedin-in"]} className="mr-3" /></a>
+                    <a href="mailto:contact@alphacoder.me" target="_blank" style={{ color: "white" }} ><FontAwesomeIcon icon={["fas", "envelope-open"]} className="mr-3" /></a>
+                    <a href="skype:live:ed5ef789e2b90848?chat" target="_blank" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "skype"]} className="mr-3" /></a>
+                    <a href="https://twitter.com/4lphacoder" target="_blank" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "twitter"]} className="mr-3" /></a>
                 </li>
             </ul>
         </div>);
