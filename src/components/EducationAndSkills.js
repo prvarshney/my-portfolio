@@ -14,7 +14,7 @@ export class EducationAndSkills extends Component {
             <div className="row ">
                 <div className="col-10 mt-3  pb-5 border-bottom mb-5" style={{ fontSize: (window.innerWidth < 1920) ? "16px" : "18px" }}>
                     <div className="row" style={{ display: "flex", alignItems: "center" }}>
-                        <ul style={{ listStyleType: "upper-roman" }} className="col-12 pl-5">
+                        <ul style={{ listStyleType: "upper-roman" }} className="col-12 ml-4 pl-5">
                             <li>
                                 <div className="row" style={{ display: "flex", alignItems: "center" }}>
                                     <div className="col-9">
@@ -85,18 +85,17 @@ export class EducationAndSkills extends Component {
                             <li>huge experience in major JS ecosystems, by having used in the past many libraries like React, Redux, jQuery
                                  and many else. </li>
                         </ul>
-                        <div className="row">
-                            <div className="col-2"></div>
-                            <div className="col-4 text-center">
-                                <div style={{ color: "#04b4e0", fontSize: "52px" }}><strong>8</strong></div>
-                                <div style={{ color: "#04b4e0", fontSize: "24px", lineHeight: "32px" }}>
+                        <div className="row px-5 mx-4">
+                            <div className="col-6 px-5 text-center">
+                                <div style={{ color: "#04b4e0", fontSize: (window.innerWidth < 1920) ? '42px' : '52px' }}><strong>8</strong></div>
+                                <div style={{ color: "#04b4e0", fontSize: (window.innerWidth < 1920) ? '19px' : '24px', lineHeight: (window.innerWidth < 1920) ? '24px' : '32px' }}>
                                     Single Page Applications launched in ReactJS or Vanilla JavaScript
                                 </div>
                             </div>
-                            <div className="col-4 text-center">
-                                <div style={{ color: "#04b4e0", fontSize: "52px" }}><strong>2</strong></div>
-                                <div style={{ color: "#04b4e0", fontSize: "24px", lineHeight: "32px" }}>
-                                    Talks given about Front-end Development
+                            <div className="col-6 px-5 text-center">
+                                <div style={{ color: "#04b4e0", fontSize: (window.innerWidth < 1920) ? '42px' : '52px' }}><strong>2</strong></div>
+                                <div style={{ color: "#04b4e0", fontSize: (window.innerWidth < 1920) ? '19px' : '24px', lineHeight: (window.innerWidth < 1920) ? '24px' : '32px' }}>
+                                    Talks given about Front-End Development
                                 </div>
                             </div>
                         </div>
