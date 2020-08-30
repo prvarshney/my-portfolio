@@ -3,11 +3,16 @@
   width: 100vw;
   background-color: #ffff;
 }
-
 a {
   text-decoration: none !important;
 }
-
+.active > *{
+  display: inline !important;
+}
+.nav-link {
+  padding: 0;
+  display: inline;
+}
 :focus {
   outline: 0;
 }
