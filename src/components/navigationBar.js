@@ -3,7 +3,7 @@ import UserAvatar from '../assets/img/user_avatar.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { fas, faCoffee, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { fas, faCoffee, faCaret, faCaretLeft } from '@fortawesome/free-solid-svg-icons'
 
 
 library.add(fas, fab, faCoffee);
@@ -43,32 +43,47 @@ export class NavigationBar extends Component {
             </div>
             <ul className="text-white mt-4 font-weight-light" 
                 style={{ fontSize: (window.innerWidth < 1920) ? '16px' : '20px', listStyle: 'none' }}>
-                <li className="mt-1" style={{ display: "flex", alignItems: "center" }}>
+                <li className="mt-1">
                     <a href="#aboutme" className="nav-link text-white">About Me
-                        <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '12px' : '16px' }} icon={faChevronRight} className="ml-5 d-none" />
+                        <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '18px' : '24px', marginRight:"-1px" }} icon={faCaretLeft} className="d-none" />
                     </a>
                 </li>
-                <li className="mt-1"><a href="#education-and-skills" className="nav-link text-white">Education & Skills
-                    <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '12px' : '16px' }} icon={faChevronRight} className=" ml-5 d-none" />
+                <li className="mt-1">
+                    <a href="#education-and-skills" className="nav-link text-white">
+                        Education & Skills
+                        <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '18px' : '24px', marginRight:"-1px" }} icon={faCaretLeft} className="d-none" />
+                    </a>
+                </li>
+                <li className="mt-1">
+                    <a href="#portfolio" className="nav-link text-white">My Portfolio
+                        <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '18px' : '24px', marginRight:"-1px" }} icon={faCaretLeft} className="d-none" />
+                    </a>
+                </li>
+                <li className="mt-1">
+                    <a href="#achievements" className="nav-link text-white">Achievements
+                        <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '18px' : '24px', marginRight:"-1px" }} icon={faCaretLeft} className="d-none" />
+                    </a>
+                </li>
+                <li className="mt-1">
+                    <a href="#publications" className="nav-link text-white">Publications
+                        <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '18px' : '24px', marginRight:"-1px" }} icon={faCaretLeft} className="d-none" />
+                    </a>
+                </li>
+                <li className="mt-1 m
+                t-4"><a href="#resume" className="nav-link text-white">My Resume
+                        <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '18px' : '24px', marginRight:"-1px" }} icon={faCaretLeft} className="d-none" />
+
                 </a></li>
-                <li className="mt-1"><a href="#portfolio" className="nav-link text-white">My Portfolio
-                    <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '12px' : '16px' }} icon={faChevronRight} className="ml-5 d-none" />
-                </a></li>
-                <li className="mt-1"><a href="#achievements" className="nav-link text-white">Achievements
-                    <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '12px' : '16px' }} icon={faChevronRight} className="ml-5 d-none" />
-                </a></li>
-                <li className="mt-1"><a href="#publications" className="nav-link text-white">Publications
-                    <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '12px' : '16px' }} icon={faChevronRight} className="ml-5 d-none" />
-                </a></li>
-                <li className="mt-1 mt-4"><a href="#resume" className="nav-link text-white">My Resume
-                    <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '12px' : '16px' }} icon={faChevronRight} className="ml-5 d-none" />
-                </a></li>
-                <li className="mt-1"><a href="#blog" className="nav-link text-white">Personal Blog
-                    <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '12px' : '16px' }} icon={faChevronRight} className="ml-5 d-none" />
-                </a></li>
-                <li className="mt-1"><a href="#contactme" className="nav-link text-white">Contact Me
-                    <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '12px' : '16px' }} icon={faChevronRight} className="ml-5 d-none" />
-                </a></li>
+                <li className="mt-1">
+                    <a href="#blog" className="nav-link text-white">Personal Blog
+                        <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '18px' : '24px', marginRight:"-1px" }} icon={faCaretLeft} className="d-none" />
+                    </a>
+                </li>
+                <li className="mt-1">
+                    <a href="#contactme" className="nav-link text-white">Contact Me
+                        <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '18px' : '24px', marginRight:"-1px" }} icon={faCaretLeft} className="d-none" />
+                    </a>
+                </li>
             </ul>
             <ul className="text-white mt-5 font-weight-light" 
                 style={{ position: 'absolute', bottom: 0 ,fontSize: (window.innerWidth < 1920) ? '16px' : '20px', listStyle: 'none' }}>
