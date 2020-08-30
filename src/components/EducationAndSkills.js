@@ -1,26 +1,27 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fab, faPython, faHtml5 } from '@fortawesome/free-brands-svg-icons';
+import { fab, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCheckSquare, faCoffee, faGraduationCap, faCode, faRobot, faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 library.add(fab, faCheckSquare, faCoffee)
 
 export class EducationAndSkills extends Component {
     render() {
-        return (<div>
+        return (<div style={{ paddingLeft: (window.innerWidth < 1920) ? "36px" : "0" }}>
             {/* EDUCATION SECTION */}
             <h2 style={{ color: "#000", fontWeight: "400" }} className="mt-4">EDUCATION</h2>
             <div className="row ">
-                <div className="col-10 mt-3  pb-5 border-bottom mb-5" style={{ fontSize: "18px" }}>
+                <div className="col-10 mt-3  pb-5 border-bottom mb-5" style={{ fontSize: (window.innerWidth < 1920) ? "16px" : "18px" }}>
                     <div className="row" style={{ display: "flex", alignItems: "center" }}>
-                        <div className="col-1 text-center invisible"></div>
-                        <ul style={{ listStyleType: "upper-roman" }} className="col-10">
+                        <ul style={{ listStyleType: "upper-roman" }} className="col-12 pl-5">
                             <li>
                                 <div className="row" style={{ display: "flex", alignItems: "center" }}>
                                     <div className="col-9">
-                                        Currently pursuing my <strong style={{ color: "#04B4E0" }}>Bachelor of Technology in Computer Science & Engineering,
-                                        with ongoing CGPA of 7.7</strong> from Bhagwan Parshuram Institute of Technology <strong>affiliated by Guru Gobind 
+                                        Currently pursuing my <strong style={{ color: "#04B4E0" }}>
+                                        Bachelor of Technology in Computer Science & Engineering,
+                                        with ongoing CGPA of 7.7</strong> from Bhagwan Parshuram 
+                                        Institute of Technology <strong>affiliated by Guru Gobind 
                                         Singh Indraprastha University, Delhi, India</strong>
                                     </div>
                                     <div className="col-3 text-right font-weight-lighter"><i>June 2017 - June 2021</i></div>
@@ -53,19 +54,18 @@ export class EducationAndSkills extends Component {
             {/* TECHNICAL SKILL SECTION START */}
             <h2 style={{ color: "#000", fontWeight: "400" }} className="mt-4">TECHNICAL SKILLS</h2>
             <div className="row mt-3" >
-                <div className="col-10 border-bottom pb-4" style={{ fontSize: "18px" }}>
+                <div className="col-10 border-bottom pb-4" style={{ fontSize: (window.innerWidth < 1920) ? "16px" : "18px" }}>
                     As I <strong>started to work as a freelance software developer</strong> from the very second year of my Engineering 
                     with many startups and medium sized firms my skillset is not limited to a particular domain, <strong>
                     I have served them in variety of domains like <span style={{ color: "#04B4E0" }}>Front-End Engineering</span>, 
                     <span style={{ color: "#04B4E0" }}>Back-End Engineering</span>, <span style={{ color: "#04B4E0" }}>Mobile Application Engineering</span>, 
                     Web Scrapping, Automation, Internet of Things(IoT), UI/UX Designing, Graphic Designing</strong> and many more.
-                    <div className="my-4" style={{ color: "#04B4E0", fontSize: "64px", display: "flex", alignItems: "center" }}>
+                    <div className="my-4" style={{ color: "#04B4E0", fontSize: (window.innerWidth < 1920) ? "54px" : "64px", display: "flex", alignItems: "center" }}>
                         <FontAwesomeIcon icon={faHtml5} />
                         <FontAwesomeIcon icon={["fab", "react"]} className="ml-4" />
                         <FontAwesomeIcon icon={["fab", "css3"]} className="ml-4" />
                         <FontAwesomeIcon icon={["fab", "node-js"]} className="ml-4" />
                         <FontAwesomeIcon icon={["fab", "node"]} className="ml-4" />
-
                         <FontAwesomeIcon icon={["fab", "java"]} className="ml-4" />
                         <FontAwesomeIcon icon={["fab", "python"]} className="ml-4" />
                     </div>
