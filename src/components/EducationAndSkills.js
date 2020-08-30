@@ -52,7 +52,7 @@ export class EducationAndSkills extends Component {
                 </div>
             </div>
             {/* TECHNICAL SKILL SECTION START */}
-            <h2 style={{ color: "#000", fontWeight: "400" }} className="mt-4">TECHNICAL SKILLS</h2>
+            <h2 style={{ color: "#000", fontWeight: "400" }}>TECHNICAL SKILLS</h2>
             <div className="row mt-3" >
                 <div className="col-10 border-bottom pb-4" style={{ fontSize: (window.innerWidth < 1920) ? "16px" : "18px" }}>
                     As I <strong>started to work as a freelance software developer</strong> from the very second year of my Engineering 
