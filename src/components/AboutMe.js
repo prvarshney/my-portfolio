@@ -8,8 +8,8 @@ library.add(fab, faCheckSquare, faCoffee)
 
 export class AboutMe extends Component {
     render() {
-        return (<div style={{ paddingLeft: (window.innerWidth < 1920) ? "36px" : "0" }}>
-            <h2 style={{ color: "#000", fontWeight: "400" }} className="mt-5">ABOUT ME</h2>
+        return (<div id="aboutme" style={{ paddingLeft: (window.innerWidth < 1920) ? "36px" : "0" }}>
+            <h2 style={{ color: "#000", fontWeight: "400" }} className="pt-5">ABOUT ME</h2>
             <div className="row">
                 <div className="col-10 mt-3" style={{ fontSize: (window.innerWidth < 1920) ? "16px" : "18px" }}>
                     Hi, I am Prashant, an enthusiastic, hardworking and result-oriented <strong>professional with expertise in scalable
