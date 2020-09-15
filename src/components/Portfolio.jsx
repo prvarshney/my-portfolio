@@ -56,11 +56,11 @@ export class Portfolio extends Component {
                                     <strong>Walkman is an opensource and free music streaming and downloading application designed for Android, Linux, Windows and MacOS devices.</strong><br />
                                     <div className="font-italic mt-3">Technical wrap-up :</div>
                                     <ul className="mt-3" >
-                                        <li>Responsive desktop application for Windows, MacOS & Linux Operating System (Built using Electronjs, Javascript & Python3).</li>
-                                        <li>A Native Mobile Application for Android 5.0+(Lollipop). </li>
-                                        <li>Database is built over MySQL database</li>
-                                        <li>Backend Server written down in Nodejs using Expressjs framework, which provides REST api to both, desktop and mobile application.</li>
-                                        <li>Built over Model-View-Controller (MVC) Architecture.</li>
+                                        <li className="mt-1">Responsive desktop application for Windows, MacOS & Linux Operating System (Built using Electronjs, Javascript & Python3).</li>
+                                        <li className="mt-1">A Native Mobile Application for Android 5.0+(Lollipop). </li>
+                                        <li className="mt-1">Database is built over MySQL database</li>
+                                        <li className="mt-1">Backend Server written down in Nodejs using Expressjs framework, which provides REST api to both, desktop and mobile application.</li>
+                                        <li className="mt-1">Built over Model-View-Controller (MVC) Architecture.</li>
                                     </ul>
                                     <div className="my-4">
                                         <span className="d-block font-weight-light mb-2">TECHNOLOGIES</span>
@@ -102,8 +102,8 @@ export class Portfolio extends Component {
                                     <strong>A fully fledged defense system designed for armed forces which detects terrorist infiltration like activities and automatically shoot them without any human involvement. </strong><br />
                                     <div className="font-italic mt-3">Technical wrap-up :</div>
                                     <ul className="mt-3" >
-                                        <li>Uses OpenCV to detect human infiltration/detection.</li>
-                                        <li>Uses arduino AtMega Microprocessor to direct servos & lasers.</li>
+                                        <li className="mt-1">Uses OpenCV to detect human infiltration/detection.</li>
+                                        <li className="mt-1">Uses arduino AtMega Microprocessor to direct servos & lasers.</li>
                                     </ul>
                                     <div className="mt-4">
                                         <span className="d-block font-weight-light mb-2">TECHNOLOGIES</span>
@@ -144,10 +144,10 @@ export class Portfolio extends Component {
                                     <strong>Walkman is an opensource and free music streaming and downloading application designed for Android, Linux, Windows and MacOS devices.</strong><br />
                                     <div className="font-italic mt-3">Technical wrap-up :</div>
                                     <ul className="mt-3" >
-                                        <li>A Native Mobile Application for Android 5.0+(Lollipop). </li>
-                                        <li>Database is built over MongoDB database</li>
-                                        <li>Backend Server written down in Python3 using Flask framework, which provides REST api to mobile application.</li>
-                                        <li>Built over Model-View-Controller (MVC) Architecture.</li>
+                                        <li className="mt-1">A Native Mobile Application for Android 5.0+(Lollipop). </li>
+                                        <li className="mt-1">Database is built over MongoDB database</li>
+                                        <li className="mt-1">Backend Server written down in Python3 using Flask framework, which provides REST api to mobile application.</li>
+                                        <li className="mt-1">Built over Model-View-Controller (MVC) Architecture.</li>
                                     </ul>
                                     <div className="my-4">
                                         <span className="d-block font-weight-light mb-2">TECHNOLOGIES</span>
@@ -160,7 +160,7 @@ export class Portfolio extends Component {
                                 </div>
                                 <div className="col-6 text-left pt-4 pl-4 text-center">
                                     {/* SECTION TO INSERT SCREENSHOT OF THE APPLICATION  */}
-                                    <img src={TerminalScreens} alt="walkman home screen mockup" style={{ height: "auto", width: "100%" }} />
+                                    <img src={TerminalScreens} alt="walkman home screen mockup" style={{ height: "auto", width: "100%", transform: "rotate(5deg)" }} />
                                 </div>
                             </div>
                             <div className="row pl-5 mb-4">
