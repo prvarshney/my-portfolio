@@ -10,7 +10,7 @@ library.add(fas, fab, faCoffee);
 
 const navBarStyle = () =>  {
     return {
-        "background-color": "#04B4E0",
+        "backgroundColor": "#04B4E0",
         "height": "100%",
         "maxWidth": "390px",
         "width": "calc(450 * (100vw/1920))",
@@ -89,12 +89,12 @@ export class NavigationBar extends Component {
                 style={{ position: 'absolute', bottom: 0 ,fontSize: (window.innerWidth < 1920) ? '16px' : '20px', listStyle: 'none' }}>
                 <li className="font-weight-regular">Get in touch</li>
                 <li style={{ fontSize: (window.innerWidth < 1920) ? '24px' : '28px' }}>
-                    <a href="https://www.facebook.com/4lphacoder" target="_blank" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "facebook-f"]} className="mr-3" /></a>
-                    <a href="https://github.com/4lphacoder" target="_blank" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "github"]} className="mr-3" /></a>
-                    <a href="https://www.linkedin.com/in/alphacoder/" target="_blank" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "linkedin-in"]} className="mr-3" /></a>
-                    <a href="mailto:contact@alphacoder.me" target="_blank" style={{ color: "white" }} ><FontAwesomeIcon icon={["fas", "envelope-open"]} className="mr-3" /></a>
-                    <a href="skype:live:ed5ef789e2b90848?chat" target="_blank" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "skype"]} className="mr-3" /></a>
-                    <a href="https://twitter.com/4lphacoder" target="_blank" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "twitter"]} className="mr-3" /></a>
+                    <a href="https://www.facebook.com/4lphacoder" target="_blank" rel="noopener noreferrer" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "facebook-f"]} className="mr-3" /></a>
+                    <a href="https://github.com/4lphacoder" target="_blank" rel="noopener noreferrer" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "github"]} className="mr-3" /></a>
+                    <a href="https://www.linkedin.com/in/alphacoder/" target="_blank" rel="noopener noreferrer" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "linkedin-in"]} className="mr-3" /></a>
+                    <a href="mailto:contact@alphacoder.me" target="_blank" rel="noopener noreferrer" style={{ color: "white" }} ><FontAwesomeIcon icon={["fas", "envelope-open"]} className="mr-3" /></a>
+                    <a href="skype:live:ed5ef789e2b90848?chat" target="_blank" rel="noopener noreferrer" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "skype"]} className="mr-3" /></a>
+                    <a href="https://twitter.com/4lphacoder" target="_blank" rel="noopener noreferrer" style={{ color: "white" }} ><FontAwesomeIcon icon={["fab", "twitter"]} className="mr-3" /></a>
                 </li>
             </ul>
         </nav>);

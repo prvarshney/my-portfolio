@@ -4,7 +4,7 @@ import './App.css';
 import NavigationBar from './components/NavigationBar';
 import AboutMe from './components/AboutMe';
 import EducationAndSkills from './components/EducationAndSkills';
-import Portfolio from './components/Portfolio';
+import Portfolio from './components/Portfolio.jsx';
 
 function App() {
   return (
