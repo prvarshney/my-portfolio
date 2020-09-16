@@ -65,7 +65,7 @@ export class EducationAndSkills extends Component {
                         <span style={{ color: "#04B4E0" }}> Back-End Engineering</span>, <span style={{ color: "#04B4E0" }}>Mobile Application Engineering</span>, 
                         Web Scrapping, Automation, Internet of Things(IoT), UI/UX Designing, Graphic Designing</i> and many more.
                     </div>
-                    <div className="my-4 row justify-content-center justify-content-md-start" style={{ color: "#04B4E0", fontSize: (window.innerWidth < 1920) ? "54px" : "64px", display: "flex", alignItems: "center" }}>
+                    <div className="my-4 ml-md-2 row justify-content-center justify-content-md-start" style={{ color: "#04B4E0", fontSize: (window.innerWidth < 1920) ? "54px" : "64px", display: "flex", alignItems: "center" }}>
                         <FontAwesomeIcon icon={faHtml5} className="m-2" />
                         <FontAwesomeIcon icon={["fab", "react"]} className="m-2" />
                         <FontAwesomeIcon icon={["fab", "css3"]} className="m-2" />

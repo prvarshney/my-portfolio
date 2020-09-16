@@ -16,7 +16,7 @@ function App() {
         <div className="col-lg-9 col-12 pb-5">
           <AboutMe />
           <EducationAndSkills />
-          {/* <Portfolio /> */}
+          <Portfolio />
         </div>
       </div>
     </div>
