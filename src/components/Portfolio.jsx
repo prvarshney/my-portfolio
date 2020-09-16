@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import WalkmanHomeScreenLDPI from '../assets/img/walkman-home-screen-ldpi.jpg'
 import WalkmanHomeScreenHDPI from '../assets/img/walkman-home-screen.jpg'
 import WalkmanArtistSelectionScreen from '../assets/img/walkman-artist-selection-screen.jpg'
 import TerminalLauncherScreen from '../assets/img/terminal-launcher-screen.jpg'
@@ -23,14 +22,10 @@ let PortfolioScreenStyle = () => {
     }
 }
 
-let WalkmanScreenSRC = () => {
-    return ( window.innerWidth <= 992 ) ? WalkmanHomeScreenHDPI : WalkmanHomeScreenLDPI
-}
-
 export class Portfolio extends Component {
     render() {
         return (
-        <div id="portfolio" className="container m-lg-0 p-lg-0">
+        <div id="portfolio" className="container-fluid m-lg-0 p-lg-0">
             {/* TITLE OF THE SECTION - MY PORTFOLIO */}
             <h2 style={{ color: "#000", fontWeight: "400" }} className="pt-5 text-center text-md-left">MY PORTFOLIO</h2>
             <div className="mt-4 text-justify">See my work below. Unless explicitly stated otherwise, <strong>all their back-end and front-end parts were completely done by me.</strong></div>
@@ -40,7 +35,7 @@ export class Portfolio extends Component {
                     {/* TIMELINE SUB-SECTION STARTS */}
                     <div className="row">
                         <div className="col-1 text-right" style={{ borderRight: "1px solid #dee2e6" }}>
-                            <span style={{ color: "#999" }} className="d-none mr-0">Present</span>
+                            <span style={{ color: "#999" }} className="d-none d-lg-block mr-0">Present</span>
                             <div className="mt-3"
                                 style={{
                                     boxSizing: "border-box", position: "absolute",
@@ -51,8 +46,7 @@ export class Portfolio extends Component {
                             </div>
                         </div>
                         <div className="col-10 pl-4 pl-md-5 text-justify">
-                            <i><strong>Currently open to co-operation on new and existing projects as a full time employee or a freelancer.</strong></i><br />
-                            Are you Looking for a <strong>Software Development Engineer </strong> who possess sound knowledge of Data Structures & Algorithm Design and Analysis, a Full Stack Developer, or just a Front-End or Back-End Developer, willing to join your team/firm?<br />
+                            <i><strong>Currently open to co-operation on new and existing projects as a full time employee or a freelancer.</strong></i> Are you Looking for a <strong>Software Development Engineer </strong> who possess sound knowledge of Data Structures and Algorithm-Design & Analysis, a Full Stack Developer, or just a Front-End or Back-End Developer, willing to join your team/firm?<br />
                             Contact me. I will answer you as soon as possible.
                             <div className="my-4 border-bottom"></div>
                         </div>
@@ -61,7 +55,7 @@ export class Portfolio extends Component {
                     {/* TIMELINE SUB-SECTION STARTS */}
                     <div className="row" >
                         <div className="col-1 text-right" style={{ borderRight: "1px solid #dee2e6" }}>
-                            <span style={{ color: "#999" }} className="d-none mr-0"><i>2020 - Present</i></span>
+                            <span style={{ color: "#999" }} className="d-none d-lg-block mr-0"><i>2020 - Present</i></span>
                             <div className="mt-3"
                                 style={{
                                     boxSizing: "border-box", position: "absolute",
@@ -112,7 +106,7 @@ export class Portfolio extends Component {
                     {/* TIMELINE SUB-SECTION STARTS */}
                     <div className="row" >
                         <div className="col-1 text-right" style={{ borderRight: "1px solid #dee2e6" }}>
-                            <span style={{ color: "#999" }} className="d-none mr-0"><i>2020 - Present</i></span>
+                            <span style={{ color: "#999" }} className="d-none d-lg-block mr-0"><i>2020 - Present</i></span>
                             <div className="mt-3"
                                 style={{
                                     boxSizing: "border-box", position: "absolute",

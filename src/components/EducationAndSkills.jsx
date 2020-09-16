@@ -9,7 +9,7 @@ library.add(fab, faCheckSquare, faCoffee)
 export class EducationAndSkills extends Component {
     render() {
         return (
-        <div className="container ml-lg-0 pl-lg-0" id="education-and-skills">
+        <div className="container-fluid ml-lg-0 pl-lg-0" id="education-and-skills">
             {/* EDUCATION SECTION */}
             <h2 style={{ color: "#000", fontWeight: "400" }} className="pt-4 text-center text-md-left">EDUCATION</h2>
             <div className="row">

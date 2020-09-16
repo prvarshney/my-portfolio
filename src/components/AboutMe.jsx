@@ -9,7 +9,7 @@ library.add(fab, faCheckSquare, faCoffee)
 export class AboutMe extends Component {
     render() {
         return (
-        <div id="aboutme" className="container m-lg-0 p-lg-0">
+        <div id="aboutme" className="container-fluid m-lg-0 p-lg-0">
             <h2 style={{ color: "#000", fontWeight: "400" }} className="pt-5 text-center text-md-left">ABOUT ME</h2>
             <div className="row">
                 <div className="col-12 col-lg-10 mt-3" style={{ fontSize: (window.innerWidth < 1920) ? "16px" : "18px"}}>
@@ -32,7 +32,7 @@ export class AboutMe extends Component {
                     </div>
                     <div className="mt-4 text-justify">
                         I have maintained, developed and launched multiple projects from scratch, carrying the development of its' back-end and front-end codebases.
-                        <strong style={{ color: "#04B4E0" }}> I can help you with all the sides of your project like:</strong>
+                        <strong style={{ color: "#04B4E0" }}><br />I can help you with all the sides of your project like:</strong>
                     </div>
                     <ul className="mt-3">
                         <li>developing scalable & maintainable web/mobile application for project,</li>
