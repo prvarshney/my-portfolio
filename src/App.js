@@ -1,10 +1,9 @@
-import React from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import NavigationBar from './components/NavigationBar';
-import AboutMe from './components/AboutMe.jsx';
-import EducationAndSkills from './components/EducationAndSkills.jsx';
-import Portfolio from './components/Portfolio.jsx';
+import React from 'react'
+import './App.css'
+import NavigationBar from './components/NavigationBar'
+import AboutMe from './components/AboutMe.jsx'
+import EducationAndSkills from './components/EducationAndSkills.jsx'
+import Portfolio from './components/Portfolio.jsx'
 
 function App() {
   return (
@@ -20,7 +19,7 @@ function App() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

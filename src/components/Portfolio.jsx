@@ -1,7 +1,31 @@
 import React, { Component } from 'react'
-import WalkmanHomeScreen from '../assets/img/walkman-home-screen.jpg'
-import BPITNoticeBotScreen from '../assets/img/bpit-notice-bot-screen.png'
-import TerminalScreens from '../assets/img/terminal-screens.jpg'
+import WalkmanHomeScreenLDPI from '../assets/img/walkman-home-screen-ldpi.jpg'
+import WalkmanHomeScreenHDPI from '../assets/img/walkman-home-screen.jpg'
+import WalkmanArtistSelectionScreen from '../assets/img/walkman-artist-selection-screen.jpg'
+import TerminalLauncherScreen from '../assets/img/terminal-launcher-screen.jpg'
+import TerminalOTPScreen from '../assets/img/terminal-otp-screen.jpg'
+
+let PortfolioScreenStyle = () => {
+    console.log(window.innnerWidth);
+    if( window.innerWidth < 576 ) {
+        return {
+            height: "auto",
+            maxWidth: "260px",
+            width: "auto"
+        }
+    }
+    else { 
+        return { 
+            height: "auto",
+            maxHeight: "700px", 
+            width: "auto" 
+        }
+    }
+}
+
+let WalkmanScreenSRC = () => {
+    return ( window.innerWidth <= 992 ) ? WalkmanHomeScreenHDPI : WalkmanHomeScreenLDPI
+}
 
 export class Portfolio extends Component {
     render() {
@@ -71,12 +95,15 @@ export class Portfolio extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-12 col-lg-6 text-left pt-4 pl-md-5 pl-lg-4" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                                <div className="col-12 col-lg-6 text-left pt-4 pl-md-0 pl-lg-4" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
                                     {/* SECTION TO INSERT SCREENSHOT OF THE APPLICATION  */}
-                                    <img src={WalkmanHomeScreen} alt="walkman home screen mockup" style={{ height: "auto", width: "100%" }} />
+                                    <div className="row">
+                                        <img className="col-12 col-md-6 col-lg-12 " src={WalkmanHomeScreenHDPI} alt="walkman home screen mockup" style={ PortfolioScreenStyle() } />
+                                        <img className="col-12 col-md-6 col-lg-12 d-none d-md-block d-lg-none" src={WalkmanArtistSelectionScreen} alt="walkman home screen mockup" style={ PortfolioScreenStyle() } />
+                                    </div>
                                 </div>
                             </div>
-                            <div className="row pl-4 pl-md-5 pl-4 my-4">
+                            <div className="row my-4">
                                 <div className="col border-bottom"></div>
                             </div>
                         </div>
@@ -109,18 +136,22 @@ export class Portfolio extends Component {
                                     </ul>
                                     <div className="my-4">
                                         <span className="d-block font-weight-light mb-2">TECHNOLOGIES</span>
-                                        <div className="row justify-content-center justify-content-md-start">
+                                        <div className="row justify-content-center">
                                             <span style={{ backgroundColor: "#04b4e0" }} className="p-2 text-white m-1">Java</span>
                                             <span style={{ backgroundColor: "#04b4e0" }} className="p-2 text-white m-1">Android</span>
                                             <span style={{ backgroundColor: "#04b4e0" }} className="p-2 text-white m-1">MongoDB</span>
+                                            <span style={{ backgroundColor: "#04b4e0" }} className="p-2 text-white m-1">Javascript</span>
                                             <span style={{ backgroundColor: "#04b4e0" }} className="p-2 text-white m-1">ReactJS</span>
                                             <span style={{ backgroundColor: "#04b4e0" }} className="p-2 text-white m-1">Python3</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-12 col-lg-6 text-left pt-4 pl-md-5 pl-lg-4" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+                                <div className="col-12 col-lg-6 text-left pt-4 pl-md-0 pl-lg-4" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
                                     {/* SECTION TO INSERT SCREENSHOT OF THE APPLICATION  */}
-                                    <img src={TerminalScreens} alt="walkman home screen mockup" style={{ height: "auto", width: "100%" }} />
+                                    <div className="row">
+                                        <img className="col-12 col-md-6 col-lg-12 " src={TerminalLauncherScreen} alt="walkman home screen mockup" style={ PortfolioScreenStyle() } />
+                                        <img className="col-12 col-md-6 col-lg-12 d-none d-md-block d-lg-none" src={TerminalOTPScreen} alt="walkman home screen mockup" style={ PortfolioScreenStyle() } />
+                                    </div>
                                 </div>
                             </div>
                             {/* <div className="row pl-4 pl-md-5 pl-4 my-4">
