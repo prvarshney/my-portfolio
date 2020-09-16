@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import WalkmanHomeScreen from '../assets/img/walkman-home-screen.png'
+import WalkmanHomeScreen from '../assets/img/walkman-home-screen.jpg'
 import BPITNoticeBotScreen from '../assets/img/bpit-notice-bot-screen.png'
-import TerminalScreens from '../assets/img/terminal-screens.png'
+import TerminalScreens from '../assets/img/terminal-screens.jpg'
 
 export class Portfolio extends Component {
     render() {
@@ -73,7 +73,7 @@ export class Portfolio extends Component {
                                 </div>
                                 <div className="col-6 text-left pt-4 pl-5" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
                                     {/* SECTION TO INSERT SCREENSHOT OF THE APPLICATION  */}
-                                    <img src={WalkmanHomeScreen} alt="walkman home screen mockup" style={{ height: "100", width: "auto" }} />
+                                    <img src={WalkmanHomeScreen} alt="walkman home screen mockup" style={{ height: "auto", width: "100%" }} />
                                 </div>
                             </div>
                             <div className="row pl-5 my-4">
@@ -160,7 +160,7 @@ export class Portfolio extends Component {
                                 </div>
                                 <div className="col-6 text-left pt-4 pl-4 text-center">
                                     {/* SECTION TO INSERT SCREENSHOT OF THE APPLICATION  */}
-                                    <img src={TerminalScreens} alt="walkman home screen mockup" style={{ height: "auto", width: "100%", transform: "rotate(5deg)" }} />
+                                    <img src={TerminalScreens} alt="walkman home screen mockup" style={{ height: "auto", width: "100%" }} />
                                 </div>
                             </div>
                             <div className="row pl-5 mb-4">
