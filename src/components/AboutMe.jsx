@@ -12,7 +12,7 @@ export class AboutMe extends Component {
         <div id="aboutme" className="container m-lg-0 p-lg-0">
             <h2 style={{ color: "#000", fontWeight: "400" }} className="pt-5 text-center text-md-left">ABOUT ME</h2>
             <div className="row">
-                <div className="col-12 col-md-10 mt-3" style={{ fontSize: (window.innerWidth < 1920) ? "16px" : "18px"}}>
+                <div className="col-12 col-lg-10 mt-3" style={{ fontSize: (window.innerWidth < 1920) ? "16px" : "18px"}}>
                     <div className="text-justify"> 
                         Hi, I am Prashant, an enthusiastic, result oriented and hardworking <strong>professional with expertise in scalable
                         application development (mainly Android & Full Stack Web Applications) & enhancement</strong>. I specialize

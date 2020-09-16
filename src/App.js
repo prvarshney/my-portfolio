@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import NavigationBar from './components/NavigationBar';
 import AboutMe from './components/AboutMe.jsx';
-import EducationAndSkills from './components/EducationAndSkills';
+import EducationAndSkills from './components/EducationAndSkills.jsx';
 import Portfolio from './components/Portfolio.jsx';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         </div>
         <div className="col-lg-9 col-12 pb-5">
           <AboutMe />
-          {/* <EducationAndSkills /> */}
+          <EducationAndSkills />
           {/* <Portfolio /> */}
         </div>
       </div>
