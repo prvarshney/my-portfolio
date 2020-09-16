@@ -29,7 +29,8 @@ const UserAvatarStyle = () => {
 
 export class NavigationBar extends Component {
     render() {
-        return (<nav className="navigationbar" style={ navBarStyle() }>
+        return (
+        <nav className="navigationbar" style={ navBarStyle() }>
             <div className="text-center">
                 <img src={ UserAvatar } style={ UserAvatarStyle() } className="bg-white mt-5 border rounded-circle" alt="user-avatar"/>
             </div>
