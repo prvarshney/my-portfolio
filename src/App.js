@@ -4,6 +4,7 @@ import NavigationBar from './components/NavigationBar'
 import AboutMe from './components/AboutMe.jsx'
 import EducationAndSkills from './components/EducationAndSkills.jsx'
 import Portfolio from './components/Portfolio.jsx'
+import Achievements from './components/Achievements.jsx'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <div className="col-lg-9 col-12 pb-5">
           <AboutMe />
           <EducationAndSkills />
+          <Achievements />
           <Portfolio />
         </div>
       </div>

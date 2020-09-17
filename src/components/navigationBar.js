@@ -56,12 +56,12 @@ export class NavigationBar extends Component {
                     </a>
                 </li>
                 <li className="mt-1">
-                    <a href="#portfolio" className="nav-link text-white">My Portfolio
+                    <a href="#achievements" className="nav-link text-white">Achievements
                         <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '18px' : '24px', marginRight:"-1px" }} icon={faCaretLeft} className="d-none" />
                     </a>
                 </li>
                 <li className="mt-1">
-                    <a href="#achievements" className="nav-link text-white">Achievements
+                    <a href="#portfolio" className="nav-link text-white">My Portfolio
                         <FontAwesomeIcon style={{ fontSize: (window.innerWidth < 1920) ? '18px' : '24px', marginRight:"-1px" }} icon={faCaretLeft} className="d-none" />
                     </a>
                 </li>

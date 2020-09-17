@@ -14,8 +14,7 @@ export class AboutMe extends Component {
             <div className="row">
                 <div className="col-12 col-lg-10 mt-3" style={{ fontSize: (window.innerWidth < 1920) ? "16px" : "18px"}}>
                     <div className="text-justify"> 
-                        Hi, I am Prashant, an enthusiastic, result oriented and hardworking <strong>professional with expertise in scalable
-                        application development (mainly Android & Full Stack Web Applications) & enhancement</strong>. I specialize
+                        Hi, I am Prashant, an enthusiastic, result oriented and hardworking <strong>professional with expertise in software development (mainly Android & Full Stack Web Applications) & enhancement</strong>. I specialize
                         in Java and have professional experience working with JavaScript, Python, NodeJS, ReactJS and all the other various frameworks, libraries and technologies related to them.
                     </div>
                     <div className="container" style={{ color: "#04B4E0" ,fontSize: (window.innerWidth < 1920) ? "54px" : "64px" }}>
@@ -31,16 +30,16 @@ export class AboutMe extends Component {
                         </div>
                     </div>
                     <div className="mt-4 text-justify">
-                        I have maintained, developed and launched multiple projects from scratch, carrying the development of its' back-end and front-end codebases.
-                        <strong style={{ color: "#04B4E0" }}><br />I can help you with all the sides of your project like:</strong>
+                        I have maintained, developed and launched multiple projects from scratch, carrying the development of it's back-end and front-end codebases.
+                        <strong style={{ color: "#04B4E0" }}><br />I can handle all the sides of your project like:</strong>
                     </div>
-                    <ul className="mt-3">
-                        <li>developing scalable & maintainable web/mobile application for project,</li>
+                    <ul className="mt-3 text-justify">
+                        <li>developing maintainable web/mobile application,</li>
                         <li>leading/co-developing the back-end and front-end,</li>
                         <li>researching possible techs,</li>
-                        <li>designing, developing & analyzing best data structure and algorithm for project,</li>
-                        <li>developing bots & scripts to automate monotonous task</li>
-                        <li>developing various Internet of Things(IoT) projects</li>
+                        <li>designing, developing & analyzing best data structure and algorithm for software,</li>
+                        <li>developing bots & scripts to automate monotonous task,</li>
+                        <li>leading/co-developing various Internet of Things(IoT) based projects,</li>
                         <li>designing UI/UX of a web/mobile application.</li>
                     </ul>
                     <div className="border-bottom pb-5"><i>You can use me as Swiss Army Knife in terms of softwares :-)</i></div>

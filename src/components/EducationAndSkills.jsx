@@ -22,7 +22,7 @@ export class EducationAndSkills extends Component {
                                         <div className="col-12 col-md-9 text-justify">
                                             Currently pursuing my <strong style={{ color: "#04B4E0" }}>
                                             Bachelor of Technology in Computer Science & Engineering,
-                                            with ongoing CGPA of 7.7</strong> from Bhagwan Parshuram 
+                                            with ongoing CGPA of 7.9</strong> from Bhagwan Parshuram 
                                             Institute of Technology <i>affiliated by Guru Gobind 
                                             Singh Indraprastha University, Delhi, India</i>
                                         </div>
@@ -61,8 +61,8 @@ export class EducationAndSkills extends Component {
                     <div className="text-justify">
                         As I <strong>started to work as a freelance software developer</strong> from the very second year of my Engineering 
                         with many startups and medium sized firms my skillset is not limited to a particular domain, <i>
-                        I have served them in variety of domains like <span style={{ color: "#04B4E0" }}>Front-End Engineering</span>, 
-                        <span style={{ color: "#04B4E0" }}> Back-End Engineering</span>, <span style={{ color: "#04B4E0" }}>Mobile Application Engineering</span>, 
+                        I have served them in variety of domains like Front-End Engineering, 
+                         Back-End Engineering, Mobile Application Engineering, 
                         Web Scrapping, Automation, Internet of Things(IoT), UI/UX Designing, Graphic Designing</i> and many more.
                     </div>
                     <div className="my-4 ml-md-2 row justify-content-center justify-content-md-start" style={{ color: "#04B4E0", fontSize: (window.innerWidth < 1920) ? "54px" : "64px", display: "flex", alignItems: "center" }}>
@@ -78,7 +78,7 @@ export class EducationAndSkills extends Component {
                     <div className="mt-5 ml-0">
                         <h2 style={{ color: "#04b4e0", fontWeight: "400" }} >FRONT-END ENGINEERING</h2>
                         <div className="mt-3 text-justify">
-                            <strong>I specialize in applications written in both React and Vanilla Javascript. </strong> 
+                            <strong>I specialize in application development in both React and Vanilla Javascript. </strong> 
                             I have maintained, developed and launched multiple front-end development projects completely from scratch.
                             <span style={{ color: "#04b4e0" }}><strong> My current experience and skills in front-end includes: </strong></span>
                         </div>
@@ -90,7 +90,7 @@ export class EducationAndSkills extends Component {
                             <li>huge experience in major JS ecosystems, by having used in the past many libraries like React, Redux, jQuery
                                  and many else. </li>
                         </ul>
-                        <div className="row px-0 px-md-5 mx-0 mx-4">
+                        <div className="d-none row px-0 px-md-5 mx-0 mx-4">
                             <div className="col-12 col-md-6 px-0 px-md-5 text-center">
                                 <div style={{ color: "#04b4e0", fontSize: (window.innerWidth < 1920) ? '42px' : '52px' }}><strong>8</strong></div>
                                 <div style={{ color: "#04b4e0", fontSize: (window.innerWidth < 1920) ? '19px' : '24px', lineHeight: (window.innerWidth < 1920) ? '24px' : '32px' }}>
@@ -110,8 +110,7 @@ export class EducationAndSkills extends Component {
                         <h2 style={{ color: "#04b4e0", fontWeight: "400" }} >BACK-END ENGINEERING</h2>
                         <div className="mt-3 text-justify"><strong>In back-end development, my current stack involves 
                             NodeJS with ExpressJS Framework,</strong> and alternatively 
-                            <span style={{ color: "#04B4E0" }}> Python with Flask Framework </span> 
-                            or <span style={{ color: "#04B4E0" }}>Java with SpringBoot</span>.
+                            <span style={{ color: "#04B4E0" }}> Python with Flask Framework. </span>
                             <br />
                             Nearly every app I have launched in the past had the back-end done also by me. In order to improve the development 
                             speed, performance and reliability, I have changed languages and frameworks already multiple times, from PHP to 
@@ -125,13 +124,12 @@ export class EducationAndSkills extends Component {
                             <span style={{ color: "#04B4E0" }}> MySQL</span>), </li>
                             <li>writing unit & module tests </li>
                             <li>refactoring existing applications, by improving code readibility, 
-                                separating concerns into separate functions/classes/modules, taking the business logic 
-                                out from your request/response layer into separate modules. </li>
+                                separating logics into separate modules. </li>
                         </ul>
                     </div>
                     {/* OTHER */}
                     <div className="mt-5 ml-0">
-                        <h2 style={{ color: "#04b4e0", fontWeight: "400" }} >DEV-OPS, DESIGN, UI, PROJECT LEADERSHIP</h2>
+                        <h2 style={{ color: "#04b4e0", fontWeight: "400" }} >DESIGN, UI, PROJECT LEADERSHIP</h2>
                         <div className="mt-3 text-justify"><strong>During the course of time, I have created and released tens of web applications. </strong>
                          Thus, not only I have coded their back-end and front-end codebases, but often I also had to care about other things needed in a successful web application project like:
                         </div>
