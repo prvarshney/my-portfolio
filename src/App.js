@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import NavigationBar from './components/NavigationBar'
+import NavigationBar from './components/navigationBar'
 import AboutMe from './components/AboutMe.jsx'
 import EducationAndSkills from './components/EducationAndSkills.jsx'
 import Portfolio from './components/Portfolio.jsx'
