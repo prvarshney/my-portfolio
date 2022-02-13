@@ -34,4 +34,27 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
+  <!-- DATA DOG MONITORING SCRIPT (ASYNC) -->
+  <script>
+    (function(h,o,u,n,d) {
+      h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
+      d=o.createElement(u);d.async=1;d.src=n
+      n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
+    })(window,document,'script','https://www.datadoghq-browser-agent.com/datadog-rum-v4.js','DD_RUM')
+    DD_RUM.onReady(function() {
+      DD_RUM.init({
+        clientToken: 'pubb4c5a7cbfd2cf5be7739230a2bf69395',
+        applicationId: '4cbeee33-fe7e-44ea-8d53-82c94ce92bbf',
+        site: 'datadoghq.com',
+        service:'my-portfolio',
+        // Specify a version number to identify the deployed version of your application in Datadog 
+        // version: '1.0.0',
+        sampleRate: 100,
+        trackInteractions: true,
+        defaultPrivacyLevel: 'mask-user-input'
+      });
+      
+      DD_RUM.startSessionReplayRecording();
+    })
+  </script>
 </html>
