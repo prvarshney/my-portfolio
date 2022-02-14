@@ -39,7 +39,7 @@ export class NavigationBar extends Component {
                 <span className="font-weight-light d-block" 
                         style={{ fontSize: (window.innerWidth < 1920) ? '18px' : '24px', 
                                  marginTop: (window.innerWidth < 1920) ? '-9px' : '-12px' }}>
-                            Software Development Engineer
+                            Software Engineer
                 </span>
             </div>
             <ul className="text-white mt-4 font-weight-light" 
