@@ -35,7 +35,7 @@ export class NavigationBar extends Component {
                 <img src={ UserAvatar } style={ UserAvatarStyle() } className="bg-white mt-5 border rounded-circle" alt="user-avatar"/>
             </div>
             <div className="text-center mt-4 text-white" >
-                <span className="font-weight-bold d-block" style={{ fontSize: (window.innerWidth < 1920) ? '26px' : '34px' }}>Prashant Varshney</span>
+                <span className="font-weight-bold d-block" style={{ fontSize: (window.innerWidth < 1920) ? '26px' : '34px' }}>Prashant</span>
                 <span className="font-weight-light d-block" 
                         style={{ fontSize: (window.innerWidth < 1920) ? '18px' : '24px', 
                                  marginTop: (window.innerWidth < 1920) ? '-9px' : '-12px' }}>
